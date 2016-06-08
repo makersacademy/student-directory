@@ -1,6 +1,6 @@
 :construction: Under revision :construction:
 
-## Version 1: Printing the list of students
+<!-- ## Version 1: Printing the list of students
 
 Let's now write some Ruby code. First, create a file called directory.rb in the project directory by using the "touch" command (:pill: [The command line](https://github.com/makersacademy/course/blob/master/pills/command_line.md)). Don't forget the extension (".rb") and don't put any spaces in the filename.
 
@@ -132,7 +132,7 @@ puts " great students"
 
 And let's commit the code again, just for practice (don't forget to add a meaningful commit message).
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/44f6e11c888d45931e802bc5da082e97eeed2046).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/44f6e11c888d45931e802bc5da082e97eeed2046). -->
 
 ## Version 2: Refactoring (cleaning the code)
 
