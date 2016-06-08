@@ -42,10 +42,10 @@ Arrays (:pill: [Arrays](https://github.com/makersacademy/pre_course/blob/master/
 
 Now run the code. It still does exactly the same thing as before, right? However, if still suffers from the same problems that we discussed above. Why did we put the students into an array then? Because now we can actually improve our code.
 
-Let's start with a student count. Now that our students are in an array, we can use the array's length() method to count them instead of doing it manually. Get rid of the `student_count` variable and update the last line:
+Let's start with a student count. Now that our students are in an array, we can use the array's count() method to count them instead of doing it manually. Get rid of the `student_count` variable and update the last line:
 
 ````ruby
-		puts "Overall, we have #{students.length} great students"
+		puts "Overall, we have #{students.count} great students"
 ````
 
 Now if we put one more student in the array, we won't have to update the `student_count` variable. That's really good news.
@@ -69,15 +69,17 @@ Now our program is much shorter.
 ````ruby
 		# let's put all students into an array
 		students = [
-		  "Dr. Hannibal Lecter",
-		  "Darth Vader",
-		  "Nurse Ratched",
-		  "Michael Corleone",
-		  "Alex DeLarge",
-		  "The Alien",
-		  "Terminator",
-		  "Freddy Kruger",
-		  "The Joker"
+      "Dr. Hannibal Lecter",
+      "Darth Vader",
+      "Nurse Ratched",
+      "Michael Corleone",
+      "Alex DeLarge",
+      "The Wicked Witch of the West",
+      "Terminator",
+      "Freddy Krueger",
+      "The Joker",
+      "Joffrey Baratheon",
+      "Norman Bates"
 		]
 		# and then print them
 		puts "The students of Villains Academy"
@@ -86,7 +88,7 @@ Now our program is much shorter.
 		  puts student
 		end
 		# finally, we print the total
-		puts "Overall, we have #{students.length} great students"
+		puts "Overall, we have #{students.count} great students"
 ````
 
 By doing this we have solved two problems. Firstly, we separated the data (the array) from the operation on this array (line 19). This means that if we want to print this array again, it's very easy to do. It also means that if we want to add one more student, we won't have to do anything other than adding one more name to the array. On top of that, we could get rid of the `student_count` variable.

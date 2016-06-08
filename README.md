@@ -40,6 +40,7 @@ The script will be invoked from the command-line and it will only use pure Ruby,
 13. [Extra exercises](13_extra_exercises.md)
 
 <!-- TODO:
-- Add "go back to README" link to each section
+- Add "go back to README" link to the beginning of each section
+- Add "next step" link to the end of each section
 -
 -->
