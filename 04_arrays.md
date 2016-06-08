@@ -1,10 +1,10 @@
-## Version 3: Arrays
+## Arrays
 
 Our code works but it's not perfect. There are two problems here. Firstly, it's repetitive. The same operation – printing the student name – is repeated several times. Every time you see any kind of repetition in code, try to eliminate it because it will result in a hard to maintain code at best or be a source of nasty bugs at worst. For example, if we want to add one more student to our program, do we really have to type "puts" again? What if we had a thousand students? Oh, and we'll need to manually update `student_count`. That's a big red flag.
 
 Secondly, the data (student names) is tightly coupled with what we do with this data (printing it). What if we wanted to change the way the students are printed, for example putting a number in front of the name? That'd mean updating every single line that prints a student name. What if we wanted to print the list twice: first in alphabetical order, then in reverse order? You can see how quickly it can all go wrong.
 
-Arrays (:pill: [Arrays](https://github.com/makersacademy/course/blob/master/pills/arrays.md) ) will help us avoid both of these problems. Let's start by putting the students into an array. Remember, don't copy-paste, type everything in yourself, it's important. Make sure you understand every line here: _if you don't, talk to other students or the coaches_.
+Arrays (:pill: [Arrays](https://github.com/makersacademy/pre_course/blob/master/pills/arrays.md) ) will help us avoid both of these problems. Let's start by putting the students into an array. Remember, don't copy-paste, type everything in yourself, it's important. Make sure you understand every line here: _if you don't, talk to other students or the coaches_.
 
 ````ruby
 		student_count = 11
@@ -23,7 +23,7 @@ Arrays (:pill: [Arrays](https://github.com/makersacademy/course/blob/master/pill
       "Norman Bates"
 		]
 		# and then print them
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		puts students[0]
 		puts students[1]
@@ -80,7 +80,7 @@ Now our program is much shorter.
 		  "The Joker"
 		]
 		# and then print them
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		students.each do |student|
 		  puts student

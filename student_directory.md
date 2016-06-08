@@ -15,7 +15,7 @@ Find out the names of the students in your cohort (great excuse to say hello to 
 **Reminder: do not copy-paste the code! Always type everything yourself.**
 
 ````ruby
-puts "The students of my cohort at Makers Academy"
+puts "The students of Villains Academy"
 puts "-------------"
 puts "Dr. Hannibal Lecter"
 puts "Darth Vader"
@@ -55,7 +55,7 @@ Now, what does the code do? Every puts statement prints a line of text in the te
 `puts` itself is a method provided by Ruby. The string after every `puts` is an argument. In Ruby we can use parentheses around arguments but it's not mandatory (:pill: [methods](https://github.com/makersacademy/course/blob/master/pills/methods.md)). So, another way of writing the same code would be
 
 ````ruby
-puts("The students of my cohort at Makers Academy")
+puts("The students of Villains Academy")
 puts("-------------")
 puts("Dr. Hannibal Lecter")
 puts("Darth Vader")
@@ -112,7 +112,7 @@ Let's now add some comments to our Ruby code as well.
 
 ````ruby
 #first we print the list of students
-puts "The students of my cohort at Makers Academy"
+puts "The students of Villains Academy"
 puts "-------------"
 puts "Dr. Hannibal Lecter"
 puts "Darth Vader"
@@ -155,7 +155,7 @@ Now your code looks like this.
 ````ruby
 		student_count = 9
 		# first, we print the list of students
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		puts "Dr. Hannibal Lecter"
 		puts "Darth Vader"
@@ -207,7 +207,7 @@ Arrays (:pill: [Arrays](https://github.com/makersacademy/course/blob/master/pill
 		  "The Joker"
 		]
 		# and then print them
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		puts students[0]
 		puts students[1]
@@ -262,7 +262,7 @@ Now our program is much shorter.
 		  "The Joker"
 		]
 		# and then print them
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		students.each do |student|
 		  puts student
@@ -279,7 +279,7 @@ It's certainly a good time to commit the code.
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/a08bb43b1ba0f4304ff6602daf8cdf92cec70020). -->
 
-## Version 4: Methods
+<!-- ## Version 4: Methods
 
 Remember we discussed methods (:pill: [methods](https://github.com/makersacademy/course/blob/master/pills/methods.md) )? Let's create a few methods to make our program easier to read.
 
@@ -298,7 +298,7 @@ students = [
 ]
 
 def print_header
-  puts "The students of my cohort at Makers Academy"
+  puts "The students of Villains Academy"
   puts "-------------"
 end
 
@@ -325,9 +325,9 @@ Note that we are now passing the students variable to the methods as an argument
 
 Let's check the code in. Are you using good commit messages?
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/d8a01783d4c57379cb95160456fc830d45a42b55).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/d8a01783d4c57379cb95160456fc830d45a42b55). -->
 
-## Version 5: Adding more information about the student
+<!-- ## Version 5: Adding more information about the student
 
 Right now the only information we have about our students is the name. What if we want to know what cohort they belong to? Let's update our students array to be an array of arrays. The nested arrays will have both the name and the cohort month.
 
@@ -411,7 +411,7 @@ Now this method is much more readable. Even if you know nothing about the rest o
 
 Now it's a good time to commit the code.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/e0a6822e232602036e37e09674d26d5dc15c7a6d).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/e0a6822e232602036e37e09674d26d5dc15c7a6d). -->
 
 ## Version 6: Asking for user input
 

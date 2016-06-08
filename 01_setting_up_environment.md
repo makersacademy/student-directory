@@ -2,7 +2,7 @@
 
 [Back to the README](README.md)
 
-First, open the terminal and navigate to your project directory. Then create a new directory called "student-directory" (:pill: [The command line](../pills/command_line.md)), change into it and initialise it as an empty git repository (:pill: [Version Control with Git](../pills/git.md)).
+First, open the terminal and navigate to your project directory. Then create a new directory called "student-directory" (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)), change into it and initialise it as an empty git repository (:pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)).
 
 ![terminal](./images/term.png)
 
@@ -18,7 +18,7 @@ Make it public, name it "student-directory" (it's usually a good idea to use the
 
 ![new repo created](./images/new_github_repo_created.png)
 
-Let's now initialise the repo with a README file and create a local remote ( :pill: [Version Control with Git](https://github.com/makersacademy/course/blob/master/pills/git.md)). Github gives you steps required to do it:
+Let's now initialise the repo with a README file and create a local remote ( :pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)). Github gives you steps required to do it:
 
 ````
 echo "# student-directory" >> README.md
@@ -44,7 +44,7 @@ Good, now we have an empty repo with a remote called "master" pointing to Github
 
 Note how Github displays the contents of the `README.md` file on your project page (can you figure out where does the "student-directory" text come from?). This is because the file is named README, it's the default name for the file that has information about the project. The "md" extension means that the format of this file is [markdown](http://daringfireball.net/projects/markdown/syntax). We'll write some [markdown](http://daringfireball.net/projects/markdown/syntax) soon.
 
-Let's start Atom now. You should be able to do this by running `atom .` in the project directory (note there's a space between `atom` and the dot). The dot stands for the current directory (:pill: [The command line](../pills/command_line.md)) and `atom` is the symlink to open Atom. If you don't have it (_that is, if you get an error message when trying to run the command_), you probably don't have this shortcut set up (:pill: [Atom](../pills/atom.md)).
+Let's start Atom now. You should be able to do this by running `atom .` in the project directory (note there's a space between `atom` and the dot). The dot stands for the current directory (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)) and `atom` is the symlink to open Atom. If you don't have it (_that is, if you get an error message when trying to run the command_), you probably don't have this shortcut set up (:pill: [Atom](https://github.com/makersacademy/pre_course/blob/master/pills/installing_atom.md)).
 
 After you launch Atom, it should look like this.
 
