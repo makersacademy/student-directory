@@ -134,7 +134,7 @@ And let's commit the code again, just for practice (don't forget to add a meanin
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/44f6e11c888d45931e802bc5da082e97eeed2046). -->
 
-## Version 2: Refactoring (cleaning the code)
+<!-- ## Version 2: Refactoring (cleaning the code)
 
 Refactoring is the process of improving the code without changing what it does. Let's make our code slightly better by introducing a variable instead of a number on line 16. Why? It's more descriptive. It may not matter much in such a simple example but in a more complex programs numbers numbers used on their own may be a source of confusion. There's a good discussion of these numbers (called magic numbers) and a few code examples in [Wikipedia](http://en.wikipedia.org/wiki/Magic_number_(programming)).
 
@@ -277,7 +277,7 @@ Secondly, we got rid of the repetition. This means that if we want to change the
 
 It's certainly a good time to commit the code.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/a08bb43b1ba0f4304ff6602daf8cdf92cec70020).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/a08bb43b1ba0f4304ff6602daf8cdf92cec70020). -->
 
 ## Version 4: Methods
 
