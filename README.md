@@ -38,3 +38,8 @@ The script will be invoked from the command-line and it will only use pure Ruby,
 11. [Saving the data to a file](11_saving_data_to_file.md)
 12. [Loading the data from the file](12_loading_data_from_file.md)
 13. [Extra exercises](13_extra_exercises.md)
+
+<!-- TODO:
+- Add "go back to README" link to each section
+-
+-->
