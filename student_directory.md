@@ -483,7 +483,7 @@ If you would like to see what the code looks like at this stage of the tutorial,
 So, our list of students is becoming interactive. Make sure you really understand all code and then try to extend it. See the list of exercises for some ideas on how to make it better. -->
 
 
-Exercises
+<!-- Exercises
 -----
 
 Some of them are easy and some are more challenging. If you find yourself struggling, discuss the exercise with other students or just do an easy one before coming back to the harder exercise.
@@ -501,7 +501,7 @@ Some of them are easy and some are more challenging. If you find yourself strugg
 11. We've been using the chomp() method to get rid of the last return character. Find another method among those provided by the String class that could be used for the same purpose (although it will require passing some arguments).
 12. Once you have completed the "Asking for user input" section, open [this file](https://raw.github.com/makersacademy/student-directory/b1820c858409e93166ac86cb1aa6b54fee2e1d7a/directory.rb). It's Ruby code but it has some typos. Copy it to a local file and open it in SublimeText without syntax highlighting. To do this, select "Plain Text" in the lower right corner of the window. It should look like this: ![rubysyntaxhighlighting](/images/SelectingRubySyntaxHighlighting.png)
  Now, find all typos in that file and correct them. Use your experience, online documentation, etc. to find all mistakes. Run the script in the terminal from time to time to make sure it works as it should. Google the errors Ruby will give you, think about what they could mean, try different things but don't look the answer up :)
-13. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an "if" statement (see Ruby 2) to only print the list if there is at least one student in there?
+13. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an "if" statement (see Ruby 2) to only print the list if there is at least one student in there? -->
 
 ## Version 7: Adding an interactive menu
 
