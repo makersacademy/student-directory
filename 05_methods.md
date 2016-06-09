@@ -44,4 +44,4 @@ Now that we have extracted the code into the methods, the body of our program re
 
 Note that we are now passing the students variable to the methods as an argument (called "names" in both cases). This is because the methods don't have access to local variables defined outside them.
 
-Let's check the code in. Are you using good commit messages?
+Let's [check the code in](http://gitref.org/basic/#commit). Are you using good commit messages?
