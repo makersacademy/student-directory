@@ -709,7 +709,7 @@ Now it becomes more readable. Let's commit the code (double check that it works 
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/596363a7851e8aac5e8ecb669ded57b41d78d50e). -->
 
-## Version 8: Saving the data to a file
+<!-- ## Version 8: Saving the data to a file
 
 Right now our students disappear every time we terminate the program because the data is stored in memory. Let's persist it to the disk every time the user enters a new student. We'll store the data in a text file in the same directory where the program is. We'll use the [comma-separated format](http://en.wikipedia.org/wiki/Comma-separated_values) to store the data. So, our file will look like this:
 
@@ -816,7 +816,7 @@ We want to tell git to ignore this file completely, as if it didn't exist. To do
 
 Now the csv file will be ignored by git. However, you'll need to add the .gitignore file itself to your project.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/437b0decb366d08431911a45db269ddc945197b7).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/437b0decb366d08431911a45db269ddc945197b7). -->
 
 ## Version 9: Loading the data from the file
 

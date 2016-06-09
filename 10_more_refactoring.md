@@ -70,7 +70,7 @@ def show_students
 end
 ````
 
-The method print() has a bad name. It's obvious that it prints something but what exactly? Let's rename it to print_students_list() and remove the variables passed as arguments since we can now access `@students` from all methods.
+The method `print()` has a bad name. It's obvious that it prints something but what exactly? Let's rename it to `print_students_list()` and remove the variables passed as arguments since we can now access `@students` from all methods.
 
 ````ruby
 def show_students
