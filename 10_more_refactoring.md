@@ -81,5 +81,3 @@ end
 ````
 
 Now it becomes more readable. Let's commit the code (double check that it works as before). However, the code is not perfect. There are several more opportunities for refactoring this code, as you'll see in the [exercises](13_extra_exercises.md) in the end of this tutorial.
-
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://raw.githubusercontent.com/makersacademy/student-directory-exemplar/596363a7851e8aac5e8ecb669ded57b41d78d50e/directory.rb).

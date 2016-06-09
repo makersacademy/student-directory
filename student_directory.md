@@ -818,7 +818,7 @@ Now the csv file will be ignored by git. However, you'll need to add the .gitign
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/437b0decb366d08431911a45db269ddc945197b7). -->
 
-## Version 9: Loading the data from the file
+<!-- ## Version 9: Loading the data from the file
 
 If we have the data saved to the file, we can load it on startup, so that we didn't have to input all the students again. The loading procedure is going to be the reverse of the what we've done to save the data to the file.
 
@@ -873,7 +873,7 @@ Right now we have a good opportunity for refactoring. See the list of exercises 
 
 If everything works as it should, it's a good time to commit everything.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/be462c52c2b5a284f58a3a1cc57aa4e94cf51762).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/be462c52c2b5a284f58a3a1cc57aa4e94cf51762). -->
 
 ## Version 10: Taking arguments from the command line
 
