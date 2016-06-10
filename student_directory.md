@@ -875,7 +875,7 @@ If everything works as it should, it's a good time to commit everything.
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/be462c52c2b5a284f58a3a1cc57aa4e94cf51762). -->
 
-## Version 10: Taking arguments from the command line
+<!-- ## Version 10: Taking arguments from the command line
 
 Right now, the list of students is loaded from the file if you select the corresponding option from the menu. What if we wanted to load the information from the file on startup? Let's learn how to read command-line arguments and use them.
 
@@ -993,7 +993,7 @@ If everything works as expected, it's now time to commit the code.
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/72d6159cdd7a2959f9628e13615e6d203d6f4531).
 
-**Congratulations! You have reached the end of this tutorial!**
+**Congratulations! You have reached the end of this tutorial!** -->
 
 ## Extra Exercises
 
