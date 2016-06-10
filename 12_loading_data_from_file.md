@@ -49,21 +49,4 @@ def print_menu
 end
 ````
 
-Now, REFACTORING TIME! Let's take another look at our new `load_students()` method. It has some functionality that could be extracted into a different method, don't you think?
-
-````ruby
-def add_student(name, cohort)
-  @students << {name: :name, cohort: cohort.to_sym}
-end
-
-def load_students
-  file = File.open("students.csv", "r")
-  file.readlines.each do |line|
-    name, cohort = line.chomp.split(',')
-    add_student(name, cohort)
-  end
-  file.close
-end
-````
-
 If everything works as it should, it's a good time to commit what you've done so far.

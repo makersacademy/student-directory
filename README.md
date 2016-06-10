@@ -44,4 +44,4 @@ The script will be invoked from the command-line and it will only use pure Ruby,
 11. [Saving the data to a file](11_saving_data_to_file.md)
 12. [Loading the data from the file](12_loading_data_from_file.md)
 13. [Taking arguments from the command line](13_taking_arguments_command_line.md)
-14. [Extra exercises](14_extra_exercises.md)
+14. [Extra exercises](14_more_exercises.md)
