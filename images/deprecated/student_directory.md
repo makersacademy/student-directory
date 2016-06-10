@@ -15,7 +15,7 @@ Find out the names of the students in your cohort (great excuse to say hello to 
 **Reminder: do not copy-paste the code! Always type everything yourself.**
 
 ````ruby
-puts "The students of my cohort at Makers Academy"
+puts "The students of Villains Academy"
 puts "-------------"
 puts "Dr. Hannibal Lecter"
 puts "Darth Vader"
@@ -55,7 +55,7 @@ Now, what does the code do? Every puts statement prints a line of text in the te
 `puts` itself is a method provided by Ruby. The string after every `puts` is an argument. In Ruby we can use parentheses around arguments but it's not mandatory (:pill: [methods](https://github.com/makersacademy/course/blob/master/pills/methods.md)). So, another way of writing the same code would be
 
 ````ruby
-puts("The students of my cohort at Makers Academy")
+puts("The students of Villains Academy")
 puts("-------------")
 puts("Dr. Hannibal Lecter")
 puts("Darth Vader")
@@ -112,7 +112,7 @@ Let's now add some comments to our Ruby code as well.
 
 ````ruby
 #first we print the list of students
-puts "The students of my cohort at Makers Academy"
+puts "The students of Villains Academy"
 puts "-------------"
 puts "Dr. Hannibal Lecter"
 puts "Darth Vader"
@@ -134,7 +134,7 @@ And let's commit the code again, just for practice (don't forget to add a meanin
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/44f6e11c888d45931e802bc5da082e97eeed2046). -->
 
-## Version 2: Refactoring (cleaning the code)
+<!-- ## Version 2: Refactoring (cleaning the code)
 
 Refactoring is the process of improving the code without changing what it does. Let's make our code slightly better by introducing a variable instead of a number on line 16. Why? It's more descriptive. It may not matter much in such a simple example but in a more complex programs numbers numbers used on their own may be a source of confusion. There's a good discussion of these numbers (called magic numbers) and a few code examples in [Wikipedia](http://en.wikipedia.org/wiki/Magic_number_(programming)).
 
@@ -155,7 +155,7 @@ Now your code looks like this.
 ````ruby
 		student_count = 9
 		# first, we print the list of students
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		puts "Dr. Hannibal Lecter"
 		puts "Darth Vader"
@@ -207,7 +207,7 @@ Arrays (:pill: [Arrays](https://github.com/makersacademy/course/blob/master/pill
 		  "The Joker"
 		]
 		# and then print them
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		puts students[0]
 		puts students[1]
@@ -262,7 +262,7 @@ Now our program is much shorter.
 		  "The Joker"
 		]
 		# and then print them
-		puts "The students of my cohort at Makers Academy"
+		puts "The students of Villains Academy"
 		puts "-------------"
 		students.each do |student|
 		  puts student
@@ -277,9 +277,9 @@ Secondly, we got rid of the repetition. This means that if we want to change the
 
 It's certainly a good time to commit the code.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/a08bb43b1ba0f4304ff6602daf8cdf92cec70020).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/a08bb43b1ba0f4304ff6602daf8cdf92cec70020). -->
 
-## Version 4: Methods
+<!-- ## Version 4: Methods
 
 Remember we discussed methods (:pill: [methods](https://github.com/makersacademy/course/blob/master/pills/methods.md) )? Let's create a few methods to make our program easier to read.
 
@@ -298,7 +298,7 @@ students = [
 ]
 
 def print_header
-  puts "The students of my cohort at Makers Academy"
+  puts "The students of Villains Academy"
   puts "-------------"
 end
 
@@ -325,9 +325,9 @@ Note that we are now passing the students variable to the methods as an argument
 
 Let's check the code in. Are you using good commit messages?
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/d8a01783d4c57379cb95160456fc830d45a42b55).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/d8a01783d4c57379cb95160456fc830d45a42b55). -->
 
-## Version 5: Adding more information about the student
+<!-- ## Version 5: Adding more information about the student
 
 Right now the only information we have about our students is the name. What if we want to know what cohort they belong to? Let's update our students array to be an array of arrays. The nested arrays will have both the name and the cohort month.
 
@@ -411,9 +411,9 @@ Now this method is much more readable. Even if you know nothing about the rest o
 
 Now it's a good time to commit the code.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/e0a6822e232602036e37e09674d26d5dc15c7a6d).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/e0a6822e232602036e37e09674d26d5dc15c7a6d). -->
 
-## Version 6: Asking for user input
+<!-- ## Version 6: Asking for user input
 
 Let's ask the user for the list of students instead of hardcoding them into the script. So we'll create an empty array of students and then ask the user for the first name and put it into the array. Then we'll ask for the second name and put it into the array. Then we'll ask for the third name and so on, until the user enters an empty name, at which point we'll just show the list of students. Sounds easy, right?  (:pill: [user interaction](https://github.com/makersacademy/course/blob/master/pills/user_interaction.md) )
 
@@ -480,10 +480,10 @@ If everything works as it should, commit the code.
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/be185955c825cc3b377fd6c8ad8df917820880ad).
 
-So, our list of students is becoming interactive. Make sure you really understand all code and then try to extend it. See the list of exercises for some ideas on how to make it better.
+So, our list of students is becoming interactive. Make sure you really understand all code and then try to extend it. See the list of exercises for some ideas on how to make it better. -->
 
 
-Exercises
+<!-- Exercises
 -----
 
 Some of them are easy and some are more challenging. If you find yourself struggling, discuss the exercise with other students or just do an easy one before coming back to the harder exercise.
@@ -501,9 +501,9 @@ Some of them are easy and some are more challenging. If you find yourself strugg
 11. We've been using the chomp() method to get rid of the last return character. Find another method among those provided by the String class that could be used for the same purpose (although it will require passing some arguments).
 12. Once you have completed the "Asking for user input" section, open [this file](https://raw.github.com/makersacademy/student-directory/b1820c858409e93166ac86cb1aa6b54fee2e1d7a/directory.rb). It's Ruby code but it has some typos. Copy it to a local file and open it in SublimeText without syntax highlighting. To do this, select "Plain Text" in the lower right corner of the window. It should look like this: ![rubysyntaxhighlighting](/images/SelectingRubySyntaxHighlighting.png)
  Now, find all typos in that file and correct them. Use your experience, online documentation, etc. to find all mistakes. Run the script in the terminal from time to time to make sure it works as it should. Google the errors Ruby will give you, think about what they could mean, try different things but don't look the answer up :)
-13. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an "if" statement (see Ruby 2) to only print the list if there is at least one student in there?
+13. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an "if" statement (see Ruby 2) to only print the list if there is at least one student in there? -->
 
-## Version 7: Adding an interactive menu
+<!-- ## Version 7: Adding an interactive menu
 
 Right now our script is interactive, that is, it asks for the user input and prints it back. Later in this tutorial we'll add more sophisticated functionality: saving data to a file and loading it back, showing information about a particular student, displaying aggregates, etc. Let's start by creating an interactive menu that will ask the user what to do.
 
@@ -621,9 +621,9 @@ Now update your program to call this method instead of asking for the list of us
 
 Our code isn't perfect (we'll discuss why and fix it later) but it works (if it doesn't try to understand why by reading the error messages and fix it). So let's check it in before continuing with the project. Don't wait until the code is perfect: check it in if it works and refactor it later.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/1ca451715800a2c5df49791ebe1c4f7161b92bad).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/1ca451715800a2c5df49791ebe1c4f7161b92bad). -->
 
-### Refactoring the code
+<!-- ### Refactoring the code
 
 First of all, why refactor if it works? Refactoring the code means improving its structure without changing its functionality, so that it was easier to understand and extend later. Once you get your code working, stop and think if you could refactor it to make it look good. This work will pay off later when you decide to add a couple more features.
 
@@ -707,9 +707,9 @@ end
 
 Now it becomes more readable. Let's commit the code (double check that it works as before). However, the code is not perfect. There are several more opportunities for refactoring this code (see the exercises).
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/596363a7851e8aac5e8ecb669ded57b41d78d50e).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/596363a7851e8aac5e8ecb669ded57b41d78d50e). -->
 
-## Version 8: Saving the data to a file
+<!-- ## Version 8: Saving the data to a file
 
 Right now our students disappear every time we terminate the program because the data is stored in memory. Let's persist it to the disk every time the user enters a new student. We'll store the data in a text file in the same directory where the program is. We'll use the [comma-separated format](http://en.wikipedia.org/wiki/Comma-separated_values) to store the data. So, our file will look like this:
 
@@ -816,9 +816,9 @@ We want to tell git to ignore this file completely, as if it didn't exist. To do
 
 Now the csv file will be ignored by git. However, you'll need to add the .gitignore file itself to your project.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/437b0decb366d08431911a45db269ddc945197b7).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/437b0decb366d08431911a45db269ddc945197b7). -->
 
-## Version 9: Loading the data from the file
+<!-- ## Version 9: Loading the data from the file
 
 If we have the data saved to the file, we can load it on startup, so that we didn't have to input all the students again. The loading procedure is going to be the reverse of the what we've done to save the data to the file.
 
@@ -873,9 +873,9 @@ Right now we have a good opportunity for refactoring. See the list of exercises 
 
 If everything works as it should, it's a good time to commit everything.
 
-If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/be462c52c2b5a284f58a3a1cc57aa4e94cf51762).
+If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/be462c52c2b5a284f58a3a1cc57aa4e94cf51762). -->
 
-## Version 10: Taking arguments from the command line
+<!-- ## Version 10: Taking arguments from the command line
 
 Right now, the list of students is loaded from the file if you select the corresponding option from the menu. What if we wanted to load the information from the file on startup? Let's learn how to read command-line arguments and use them.
 
@@ -993,9 +993,9 @@ If everything works as expected, it's now time to commit the code.
 
 If you would like to see what the code looks like at this stage of the tutorial, [follow this link](https://github.com/makersacademy/student-directory/tree/72d6159cdd7a2959f9628e13615e6d203d6f4531).
 
-**Congratulations! You have reached the end of this tutorial!**
+**Congratulations! You have reached the end of this tutorial!** -->
 
-## Extra Exercises
+<!-- ## Extra Exercises
 
 1. Update the code to use `@students` variable instead of the `students` variable passed as an argument.
 2.	Continue refactoring the code. Which method is a bit too long? What method names are not clear enough? Anything else you'd change to make your code look more elegant? Why? Show your code to a teacher after you make it as beautiful as you can.
@@ -1003,4 +1003,4 @@ If you would like to see what the code looks like at this stage of the tutorial,
 4.	After we added the code to load the students from file, we ended up with adding the students to `@students` in two places. The lines in load_students() and input_students() are almost the same. This violates the _Don't Repeat Yourself_ principle. How can you extract them into a method to fix this problem?
 5.	We are opening and closing the files manually. Read the documentation of the File class to find out how to use a code block (do...end) to access a file, so that we didn't have to close it explicitly (it will be closed automatically when the block finishes).  Refactor the code to use a code block.
 6.	We are de-facto using CSV format to store data. However, Ruby includes [a library to work with the CSV files](http://www.ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html) that we could use instead of working directly with the files. Refactor the code to use this library.
-7.	The filename we use to save and load data (menu items 3 and 4) is hardcoded. Make the script more flexible by asking for the filename if the user chooses these menu items.
+7.	The filename we use to save and load data (menu items 3 and 4) is hardcoded. Make the script more flexible by asking for the filename if the user chooses these menu items. -->

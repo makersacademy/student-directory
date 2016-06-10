@@ -2,7 +2,7 @@
 
 In this week we are aiming to get you ready with a lot of basic concepts and practices that will be the base for your further development as a web developer. Although they might look simple, it is really important that you grasp these concepts. We are going to build a simple terminal based student directory. Exciting, huh?
 
-Make sure that you go through the **[knowledge pills](../pills.md) (:pill:)** when you struggle.
+Make sure that you go through the **[knowledge pills](https://github.com/makersacademy/pre_course/blob/master/pills.md) (:pill:)** when you struggle.
 
 ## Overview
 
@@ -37,4 +37,5 @@ The script will be invoked from the command-line and it will only use pure Ruby,
 10. [More refactoring](10_more_refactoring.md)
 11. [Saving the data to a file](11_saving_data_to_file.md)
 12. [Loading the data from the file](12_loading_data_from_file.md)
-13. [Extra exercises](13_extra_exercises.md)
+13. [Taking arguments from the command line](13_taking_arguments_command_line.md)
+14. [Extra exercises](14_more_exercises.md)

@@ -1,6 +1,8 @@
-## Printing the list of students
+# 2. Printing the list of students
 
-Let's now write some Ruby code. First, create a file called directory.rb in the project directory by using the "touch" command (:pill: [The command line](https://github.com/makersacademy/course/blob/master/pills/command_line.md)). Don't forget the extension (".rb") and don't put any spaces in the filename.
+[Back to README](README.md)
+
+Let's now write some Ruby code. First, create a file called directory.rb in the project directory by using the "touch" command (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)). Don't forget the extension (".rb") and don't put any spaces in the filename.
 
 Now you should see the empty file in the text editor.
 
@@ -36,9 +38,9 @@ It's a good idea to commit code once a specific change was introduced to the cod
 
 ![git push2](/images/git_push_2.png)
 
-Now, what does the code do? Every puts statement prints a line of text in the terminal. More precisely, it prints it to the standard output (:pill: [The command line](https://github.com/makersacademy/course/blob/master/pills/command_line.md)).
+Now, what does the code do? Every puts statement prints a line of text in the terminal. More precisely, it prints it to the standard output (:pill: [Command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)).
 
-`puts` itself is a method provided by Ruby. The string after every `puts` is an argument. In Ruby we can use parentheses around arguments but it's not mandatory (:pill: [methods](https://github.com/makersacademy/course/blob/master/pills/methods.md)). So, another way of writing the same code would be
+`puts` itself is a method provided by Ruby. The string after every `puts` is an argument. In Ruby we can use parentheses around arguments but it's not mandatory (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/master/pills/methods.md)). So, another way of writing the same code would be
 
 ````ruby
 puts("The students of Villains Academy")
@@ -119,3 +121,5 @@ puts " great students"
 ````
 
 And let's commit the code again, just for practice.
+
+[Next challenge](03_refactoring.md)
