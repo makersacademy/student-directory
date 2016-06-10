@@ -1,6 +1,6 @@
-# Setting up your environment
+# 1. Setting up your environment
 
-[Back to the README](README.md)
+[Back to README](README.md)
 
 First, open the terminal and navigate to your project directory. Then create a new directory called "student-directory" (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)), change into it and initialise it as an empty git repository (:pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)).
 
@@ -75,3 +75,5 @@ After we push the README file, we'll see it on Github.
 ![studentreadme](./images/student_directory_readme.png)
 
 Now we have a local and and a remote repo with a README file that describes the project we're about to create.
+
+[Next challenge](02_printing_list_students.md)

@@ -1,11 +1,5 @@
 # Student Directory
 
-<!-- TODO:
-- Add "go back to README" link to the beginning of each section
-- Add "next step" link to the end of each section
--
--->
-
 In this week we are aiming to get you ready with a lot of basic concepts and practices that will be the base for your further development as a web developer. Although they might look simple, it is really important that you grasp these concepts. We are going to build a simple terminal based student directory. Exciting, huh?
 
 Make sure that you go through the **[knowledge pills](https://github.com/makersacademy/pre_course/blob/master/pills.md) (:pill:)** when you struggle.

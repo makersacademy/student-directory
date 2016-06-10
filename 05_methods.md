@@ -1,6 +1,8 @@
-## Methods
+# 5. Methods
 
-Remember we discussed methods (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/master/pills/methods.md) )? Let's create a few methods to make our program easier to read.
+[Back to README](README.md)
+
+Let's create a few methods (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/master/pills/methods.md)) to make our program easier to read.
 
 ````ruby
 #let's put all students into an array
@@ -45,3 +47,5 @@ Now that we have extracted the code into the methods, the body of our program re
 Note that we are now passing the students variable to the methods as an argument (called "names" in both cases). This is because the methods don't have access to local variables defined outside them.
 
 Let's [check the code in](http://gitref.org/basic/#commit). Are you using good commit messages?
+
+[Next challenge](06_adding_more_info.md)

@@ -1,4 +1,6 @@
-## Version 5: Adding more information about the student
+# 6. Adding more information about the student
+
+[Back to README](README.md)
 
 Right now the only information we have about our students is the name. What if we want to know what cohort they belong to? Let's update our students array to be an array of arrays. The nested arrays will have both the name and the cohort month.
 
@@ -87,3 +89,5 @@ end
 Now this method is much more readable. Even if you know nothing about the rest of the program, you can tell that for each student from an array of students it prints a name, followed by the cohort.
 
 Now it's a good time to commit the code.
+
+[Next challenge](07_asking_user_input.md)

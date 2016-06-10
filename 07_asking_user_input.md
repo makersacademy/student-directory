@@ -1,4 +1,6 @@
-## Asking for user input
+# 7. Asking for user input
+
+[Back to README](README.md)
 
 Let's ask the user for the list of students instead of hardcoding them into the script. So we'll create an empty array of students and then ask the user for the first name and put it into the array. Then we'll ask for the second name and put it into the array. Then we'll ask for the third name and so on, until the user enters an empty name, at which point we'll just show the list of students. Sounds easy, right?  (:pill: [user interaction](https://github.com/makersacademy/pre_course/blob/master/pills/user_interaction.md) )
 
@@ -64,3 +66,5 @@ Overall, we have 3 great students
 If everything works as it should, commit the code.
 
 So, our list of students is becoming interactive. Make sure you really understand all code and then try to extend it. See the list of exercises on the next section for some ideas on how to make it better.
+
+[Next challenge](08_exercises.md)

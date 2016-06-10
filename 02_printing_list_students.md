@@ -1,4 +1,6 @@
-## Printing the list of students
+# 2. Printing the list of students
+
+[Back to README](README.md)
 
 Let's now write some Ruby code. First, create a file called directory.rb in the project directory by using the "touch" command (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)). Don't forget the extension (".rb") and don't put any spaces in the filename.
 
@@ -119,3 +121,5 @@ puts " great students"
 ````
 
 And let's commit the code again, just for practice.
+
+[Next challenge](03_refactoring.md)

@@ -1,4 +1,6 @@
-## Arrays
+# 4. Arrays
+
+[Back to README](README.md)
 
 Our code works but it's not perfect. There are two problems here. Firstly, it's repetitive. The same operation – printing the student name – is repeated several times. Every time you see any kind of repetition in code, try to eliminate it because it will result in a hard to maintain code at best or be a source of nasty bugs at worst. For example, if we want to add one more student to our program, do we really have to type "puts" again? What if we had a thousand students? Oh, and we'll need to manually update `student_count`. That's a big red flag.
 
@@ -96,3 +98,5 @@ By doing this we have solved two problems. Firstly, we separated the data (the a
 Secondly, we got rid of the repetition. This means that if we want to change the way this array is printed, there's only one line to update, line 19.
 
 It's certainly a good time to commit the code.
+
+[Next challenge](05_methods.md)

@@ -1,4 +1,6 @@
-## Taking arguments from the command line
+# 13. Taking arguments from the command line
+
+[Back to README](README.md)
 
 Right now, the list of students is loaded from the file if you select the corresponding option from the menu. What if we wanted to load the information from the file on startup? Let's learn how to read command-line arguments and use them.
 
@@ -113,3 +115,5 @@ Update the `input_students()` and `process()` methods that use the `gets()` meth
 Now, if you call this method right before showing the menu, it will load the students from the file if it's supplied by the command-line.
 
 If everything works as expected, congrats - you have built a fully functional command line app! :tada:
+
+[Next challenge](14_more_exercises.md)

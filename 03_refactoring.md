@@ -1,4 +1,6 @@
-## Refactoring (cleaning the code)
+# 3. Refactoring (cleaning the code)
+
+[Back to README](README.md)
 
 Refactoring is the process of improving the code without changing what it does. Let's make our code slightly better by introducing a variable instead of a number on line 16. Why? It's more descriptive. It may not matter much in such a simple example but in a more complex programs numbers numbers used on their own may be a source of confusion. There's a good discussion of these numbers (called magic numbers) and a few code examples in [Wikipedia](http://en.wikipedia.org/wiki/Magic_number_(programming)).
 
@@ -47,3 +49,5 @@ puts "Overall, we have #{student_count} great students"
 ````
 
 Now our code is both shorter and more expressive than it was before. Good time to commit it.
+
+[Next challenge](04_arrays.md)

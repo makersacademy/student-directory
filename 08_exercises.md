@@ -1,4 +1,6 @@
-## Exercises
+# 8. Exercises
+
+[Back to README](README.md)
 
 Some of them are easy and some are more challenging. If you find yourself struggling, discuss the exercise with other students, pair on it or just do an easy one before coming back to the harder exercise.
 
@@ -31,3 +33,5 @@ methods (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/master/
  documentation, etc. to find all mistakes. Run the script in the terminal from time to time to make sure it works as it should. Google the errors Ruby will give you, think about what they could mean, try different things but don't look the answer up :)
 
 13. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an `if` statement (:pill: [Control Flow](https://github.com/makersacademy/pre_course/blob/master/pills/control_flow.md)) to only print the list if there is at least one student in there?
+
+[Next challenge](09_adding_interactive_menu.md)

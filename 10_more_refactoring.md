@@ -1,4 +1,6 @@
-### Refactoring the code
+# 10. Refactoring the code
+
+[Back to README](README.md)
 
 First of all, why refactor if it works? Refactoring the code means improving its structure without changing its functionality, so that it was easier to understand and extend later. Once you get your code working, stop and think if you could refactor it to make it look good. This work will pay off later when you decide to add a couple more features.
 
@@ -81,3 +83,5 @@ end
 ````
 
 Now it becomes more readable. Let's commit the code (double check that it works as before). However, the code is not perfect. There are several more opportunities for refactoring this code, as you'll see in the [exercises](13_extra_exercises.md) in the end of this tutorial.
+
+[Next challenge](11_saving_data_to_file.md)
