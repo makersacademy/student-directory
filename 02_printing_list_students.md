@@ -2,7 +2,7 @@
 
 [Back to README](README.md)
 
-Let's now write some Ruby code. First, create a file called directory.rb in the project directory by using the "touch" command (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)). Don't forget the extension (".rb") and don't put any spaces in the filename.
+Let's now write some Ruby code. First, create a file called `directory.rb` in the project directory by using the "touch" command (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)). Don't forget the extension (".rb") and don't put any spaces in the filename.
 
 Now you should see the empty file in the text editor.
 

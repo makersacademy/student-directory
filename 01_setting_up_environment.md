@@ -2,7 +2,7 @@
 
 [Back to README](README.md)
 
-First, open the terminal and navigate to your project directory. Then create a new directory called "student-directory" (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)), change into it and initialise it as an empty git repository (:pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)).
+First, open the terminal and navigate to your project directory. Then create a new directory called `student-directory` (:pill: [The command line](https://github.com/makersacademy/pre_course/blob/master/pills/command_line.md)), change into it and initialise it as an empty git repository (:pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)).
 
 ![terminal](./images/term.png)
 
