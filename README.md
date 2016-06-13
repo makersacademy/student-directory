@@ -8,18 +8,9 @@ Make sure that you go through the **[knowledge pills](https://github.com/makersa
 
 The goal of this tutorial is not only to show you the Ruby code that you'll need to write (that's the easy bit) but to show you the process of creating a project from scratch. Most importantly we'll explain what to do, in what order and why do it at all.
 
-**It will have the following features:**
-
-- Show the list of all students
-	- ordered by name
-	- grouped by cohort (as an exercise)
-- Add new students by asking the user to input the names
-- Show information about a given student
-- Add information related to a particular student (e.g. hobbies)
-- Interactive menu to ask the user what he or she would like to do
-- Displaying aggregate info (statistics)
-- Saving this data to a file
-- Loading it from the file
+<!-- TODO
+- Add feature list
+-->
 
 The script will be invoked from the command-line and it will only use pure Ruby, that is, there will be no external libraries to use. It will have text-based interface that will not look particularly exciting but it's really important to understand how to build basic things before trying to create sophisticated websites.
 
