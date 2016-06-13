@@ -14,11 +14,11 @@ We always begin a new project (unless it's a throwaway code that will not live u
 
 ![new repo](./images/new_github_repo.png)
 
-Make it public, name it "student-directory" (it's usually a good idea to use the same name for Github repos and local folders) but don't initialise it with a README – we'll do it manually. This is what your repo will look like right after it's created.
+Make it public, name it "student-directory" (it's usually a good idea to use the same name for Github repos and local folders) but don't initialise it with a README – we'll do it manually.
 
 ![new repo created](./images/new_github_repo_created.png)
 
-Let's now initialise the repo with a README file and create a local remote ( :pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)). Github gives you steps required to do it:
+Let's now add a README file and create a local remote ( :pill: [Version Control with Git](https://github.com/makersacademy/pre_course/blob/master/pills/git.md)). Github gives you steps required to do it:
 
 ````
 echo "# student-directory" >> README.md
