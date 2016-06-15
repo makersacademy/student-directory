@@ -97,4 +97,4 @@ Secondly, we got rid of the repetition. This means that if we want to change the
 
 It's certainly a good time to commit the code.
 
-[Next challenge](05_methods.md)
+[Next: Methods](05_methods.md)

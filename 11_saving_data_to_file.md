@@ -105,6 +105,6 @@ git status
 
 We want to tell git to ignore this file completely, as if it didn't exist. To do this, create a `.gitignore` file (starting with a dot) and put the name of the file you want to ignore in it.
 
-Now the csv file will be ignored by git. However, you'll need to add the `.gitignore` file itself to your project.
+Now the csv file will be ignored by git. However, you'll need to add the `.gitignore` file itself to your project. See if you can do it all in one line in the command line!
 
-[Next challenge](12_loading_data_from_file.md)
+[Next: Loading the data from the file](12_loading_data_from_file.md)

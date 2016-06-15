@@ -116,4 +116,6 @@ Now, if you call this method right before showing the menu, it will load the stu
 
 If everything works as expected, congrats - you have built a fully functional command line app! :tada:
 
-[Next challenge](14_more_exercises.md)
+In case you want to see what our code looks like, follow this [link](https://raw.githubusercontent.com/anitacanita/student-directory/master/directory.rb)
+
+[Next: More Exercises](14_more_exercises.md)

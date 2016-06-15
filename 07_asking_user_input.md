@@ -15,7 +15,7 @@ def input_students
   # get the first name
   name = gets.chomp
   # while the name is not empty, repeat this code
-  while !name.empty? do    
+  while !name.empty? do  
     # add the student hash to the array
     students << {name: name, cohort: :november}
     puts "Now we have #{students.count} students"
@@ -65,6 +65,8 @@ Overall, we have 3 great students
 
 If everything works as it should, commit the code.
 
-So, our list of students is becoming interactive. Make sure you really understand all code and then try to extend it. See the list of exercises on the next section for some ideas on how to make it better.
+Our list of students is becoming interactive. Make sure you really understand all code and then try to extend it. See the list of exercises on the next section for some ideas on how to make it better.
 
-[Next challenge](08_exercises.md)
+If you want to see what our code looks like at this point, follow this [link](https://raw.githubusercontent.com/anitacanita/student-directory/da5e02a2c44912175d0307cc52d430aedaa8a6a7/directory.rb).
+
+[Next: Exercises](08_exercises.md)

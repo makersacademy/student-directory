@@ -71,7 +71,7 @@ students = [
   {name: "Terminator", cohort: :november},
   {name: "Freddy Krueger", cohort: :november},
   {name: "The Joker", cohort: :november},
-  {name: "Joffrey Baratheon", cohort: :november},
+  {name: "Joffrey Baratheon", cohort: :november},  
   {name: "Norman Bates", cohort: :november}
 ]
 ````
@@ -80,7 +80,7 @@ Hashes have keys corresponding to values, so instead of referencing the data by 
 
 ````ruby
 def print(students)
-  students.each do |student|
+  students.each do |student|  
     puts "#{student[:name]} (#{student[:cohort]} cohort)"
   end
 end
@@ -90,4 +90,4 @@ Now this method is much more readable. Even if you know nothing about the rest o
 
 Run your code, is everything working as it should? Then it's a good time to commit the code.
 
-[Next challenge](07_asking_user_input.md)
+[Next: Asking for user input](07_asking_user_input.md)

@@ -50,4 +50,4 @@ puts "Overall, we have #{student_count} great students"
 
 Now our code is both shorter and more expressive than it was before. Good time to commit it.
 
-[Next challenge](04_arrays.md)
+[Next: Arrays](04_arrays.md)

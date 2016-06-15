@@ -6,9 +6,9 @@ Some of them are easy and some are more challenging. If you find yourself strugg
 
 1. Can you make the program do exactly what it does now without using any `puts` statement? What would be the alternative?
 
-2. We're using the `each()` method to iterate over an array of students. How can you modify the program to print a number before the name of each student, e.g. "1. Dr. Hannibal Lecter"? *Hint: replace each() with each_with_index().*
+2. We're using the `each()` method to iterate over an array of students. How can you modify the program to print a number before the name of each student, e.g. "1. Dr. Hannibal Lecter"? *Hint: look into each_with_index()*
 
-3. Modify your program to only print the students whose name begins with a letter "A" (or any other).
+3. Modify your program to only print the students whose name begins with a specific letter.
 
 4. Modify your program to only print the students whose name is shorter than 12 characters.
 
@@ -27,11 +27,11 @@ methods (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/master/
 
 11. We've been using the `chomp()` method to get rid of the last return character. Find another method among those provided by the `String` class that could be used for the same purpose (although it will require passing some arguments).
 
-12. Once you have completed the "Asking for user input" section, open [this file](https://raw.github.com/makersacademy/student-directory-exemplar/b1820c858409e93166ac86cb1aa6b54fee2e1d7a/directory.rb). It's Ruby code but it has some typos. Copy it to a local file and open it in Atom without syntax highlighting. To do this, select "Plain Text" in the lower right corner of the window. It should look similar to this:
+12. Once you have completed the "Asking for user input" section, open [this file](https://raw.githubusercontent.com/anitacanita/student-directory/master/typos.rb). It's Ruby code but it has some typos. Copy it to a local file and open it in Atom without syntax highlighting. To do this, select "Plain Text" in the lower right corner of the window. It should look similar to this:
 ![rubysyntaxhighlighting](/images/selecting_ruby_syntax_highlighting.png)
  Now, find all typos in that file and correct them. Use your experience, online
  documentation, etc. to find all mistakes. Run the script in the terminal from time to time to make sure it works as it should. Google the errors Ruby will give you, think about what they could mean, try different things but don't look the answer up :)
 
 13. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an `if` statement (:pill: [Control Flow](https://github.com/makersacademy/pre_course/blob/master/pills/control_flow.md)) to only print the list if there is at least one student in there?
 
-[Next challenge](09_adding_interactive_menu.md)
+[Next: Adding an interactive menu](09_adding_interactive_menu.md)

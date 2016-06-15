@@ -76,4 +76,4 @@ After we push the README file, we'll see it on Github.
 
 Now we have a local and and a remote repo with a README file that describes the project we're about to create.
 
-[Next challenge](02_printing_list_students.md)
+[Next: Printing the list of students](02_printing_list_students.md)

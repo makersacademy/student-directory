@@ -122,4 +122,4 @@ puts " great students"
 
 And let's commit the code again, just for practice.
 
-[Next challenge](03_refactoring.md)
+[Next: Refactoring (cleaning the code)](03_refactoring.md)

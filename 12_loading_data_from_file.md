@@ -25,7 +25,7 @@ def load_students
   file = File.open("students.csv", "r")
   file.readlines.each do |line|
   name, cohort = line.chomp.split(',')
-    @students << {name: :name, cohort: cohort.to_sym}
+    @students << {name: name, cohort: cohort.to_sym}
   end
   file.close
 end
@@ -53,4 +53,4 @@ end
 
 If everything works as it should, it's a good time to commit what you've done so far.
 
-[Next challenge](13_taking_arguments_command_line.md)
+[Next: Taking arguments from the command line](13_taking_arguments_command_line.md)

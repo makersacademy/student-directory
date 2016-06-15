@@ -2,9 +2,9 @@
 
 [Back to README](README.md)
 
-Right now our script is interactive, that is, it asks for the user input and prints it back. Later in this tutorial we'll add more sophisticated functionality: saving data to a file and loading it back, showing information about a particular student, displaying aggregates, etc. Let's start by creating an interactive menu that will ask the user what to do.
+Right now our script is interactive, that is, it asks for the user input and prints it back. Later in this tutorial we'll add more sophisticated functionality: saving data to a file and loading it back, showing information about a particular student, etc. Let's start by creating an interactive menu that will ask the user what to do.
 
-Every time you want to write a piece of code, describe how it works to yourself or your pairing partner in plain English. It often helps to understand what your code needs to do, saving you lots of time.
+Every time you want to write a piece of code, describe how it works to yourself, your pairing partner (or even your [teddy bear](http://blog.adrianbolboaca.ro/2012/12/teddy-bear-pair-programming/)/[rubber duck](http://c2.com/cgi/wiki?RubberDucking)/[cat](http://i0.wp.com/agilescout.com/wp-content/uploads/2011/06/agile-pair-programming-cat-computer.jpg?w=800)) in plain English. It often helps to understand what your code needs to do, saving you lots of time.
 
 So let's talk through how our interactive menu will work in the first place. Firstly, we'll need to show the user a list of possible options. If the user doesn't know what our program can do, how could he or she make a choice? For example, right now our program can input the list of students from the keyboard and print them on the screen.
 
@@ -15,7 +15,7 @@ Finally, we need to go back to step one instead of exiting the program. Otherwis
 So, a method that does it could look like this if we described what we want to do using comments:
 
 ````ruby
-def interactive_menu
+def interactive_menu  
   # 1. print the menu and ask the user what to do
   # 2. read the input and save it into a variable
   # 3. do what the user has asked
@@ -69,7 +69,7 @@ case selection
 end
 ````
 
-We already have methods for inputting the students and showing them, so we can reuse them here.
+We already have methods for inputting the students and showing them, so we can move them here.
 
 ````ruby
 #3. do what the user has asked
@@ -101,25 +101,25 @@ def interactive_menu
     selection = gets.chomp
     # 3. do what the user has asked
     case selection
-      when "1"
-        students = input_students
-      when "2"
-        print_header
-        print(students)
-        print_footer(students)
-      when "9"
-        exit # this will cause the program to terminate
-      else
-        puts "I don't know what you meant, try again"
-      end
+    when "1"
+      students = input_students
+    when "2"
+      print_header
+      print(students)
+      print_footer(students)
+    when "9"
+      exit # this will cause the program to terminate
+    else
+      puts "I don't know what you meant, try again"
     end
+  end
 end
 ````
 
 Note that we declared the variable `students` before the loop setting it to an empty array. We've done it so that it was available in several iterations of the loop. If we didn't do it, it would be set in the first iteration (if we entered some students) but it wouldn't exist on the second iteration. To make it persist across different iterations, we need to declare it outside the loop.
 
-Now update your program to call this method instead of asking for the list of users straight away and see if it works in the console.
+Now update your program to call `interactive_menu` method instead of asking for the list of users straight away and see if it works in the command line.
 
 Our code isn't perfect (we'll discuss why and fix it later) but it works - if it doesn't, try to understand why by reading the error messages and fix it. Don't wait until the code is perfect: if it works, [check it in](http://gitref.org/basic/#commit) and refactor later.
 
-[Next challenge](10_more_refactoring.md)
+[Next: More refactoring](10_more_refactoring.md)

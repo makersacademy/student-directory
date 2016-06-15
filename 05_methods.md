@@ -48,4 +48,4 @@ Note that we are now passing the students variable to the methods as an argument
 
 Make sure everything is still working and let's [check the code in](http://gitref.org/basic/#commit). Are you using good commit messages?
 
-[Next challenge](06_adding_more_info.md)
+[Next: Adding more information about the student](06_adding_more_info.md)
