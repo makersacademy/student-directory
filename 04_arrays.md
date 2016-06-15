@@ -9,88 +9,86 @@ Secondly, the data (student names) is tightly coupled with what we do with this 
 Arrays (:pill: [Arrays](https://github.com/makersacademy/pre_course/blob/master/pills/arrays.md) ) will help us avoid both of these problems. Let's start by putting the students into an array. Remember, don't copy-paste, type everything in yourself, it's important. Make sure you understand every line here: _if you don't, talk to other students or the coaches_.
 
 ````ruby
-		student_count = 11
-		# let's put all students into an array
-		students = [
-      "Dr. Hannibal Lecter",
-      "Darth Vader",
-      "Nurse Ratched",
-      "Michael Corleone",
-      "Alex DeLarge",
-      "The Wicked Witch of the West",
-      "Terminator",
-      "Freddy Krueger",
-      "The Joker",
-      "Joffrey Baratheon",
-      "Norman Bates"
-		]
-		# and then print them
-		puts "The students of Villains Academy"
-		puts "-------------"
-		puts students[0]
-		puts students[1]
-		puts students[2]
-		puts students[3]
-		puts students[4]
-		puts students[5]
-		puts students[6]
-		puts students[7]
-		puts students[8]
-		puts students[9]
-		puts students[10]
-		# finally, we print the total
-		puts "Overall, we have #{student_count} great students"
+student_count = 11
+# let's put all students into an array
+students = [
+  "Dr. Hannibal Lecter",
+  "Darth Vader",
+  "Nurse Ratched",
+  "Michael Corleone",
+  "Alex DeLarge",
+  "The Wicked Witch of the West",
+  "Terminator",
+  "Freddy Krueger",
+  "The Joker",
+  "Joffrey Baratheon",
+  "Norman Bates"
+]
+# and then print them
+puts "The students of Villains Academy"
+puts "-------------"
+puts students[0]
+puts students[1]
+puts students[2]
+puts students[3]
+puts students[4]
+puts students[5]
+puts students[6]
+puts students[7]
+puts students[8]
+puts students[9]
+puts students[10]
+# finally, we print the total
+puts "Overall, we have #{student_count} great students"
 ````
 
 Now run the code. It still does exactly the same thing as before, right? However, if still suffers from the same problems that we discussed above. Why did we put the students into an array then? Because now we can actually improve our code.
 
-Let's start with a student count. Now that our students are in an array, we can use the array's count() method to count them instead of doing it manually. Get rid of the `student_count` variable and update the last line:
+Let's start with a student count. Now that our students are in an array, we can use the array's `count()` method to count them instead of doing it manually. Get rid of the `student_count` variable and update the last line:
 
 ````ruby
-		puts "Overall, we have #{students.count} great students"
+puts "Overall, we have #{students.count} great students"
 ````
 
 Now if we put one more student in the array, we won't have to update the `student_count` variable. That's really good news.
 
-What about the repetition? There's a way to print every value in the array without referring to each value individually. We will discuss how it actually works later on but for now you can learn how to do it even if you don't understand everything that's going on behind the scenes.
-
-Doing some operation on every value of an array is called iterating. One such operation is called an iteration. So if we need to print every value of an array, we need to iterate over this array and print the current value on every iteration. Makes sense? Let's see what the code would look like. Instead of `puts students[0]` ... `puts students[8]` you can do this:
+What about the repetition? There's a way to print every value in the array without referring to each value individually. It's [iteration](https://en.wikipedia.org/wiki/Iteration#Computing), baby! Doing some operation on every value of an array is called iterating and one such operation is called an iteration. So if we need to print every value of an array, we need to iterate over this array and print the current value on every iteration. Makes sense? Let's see what the code would look like. Instead of `puts students[0]` ... `puts students[8]` you can do this:
 
 ````ruby
-		students.each do |student|
-		  puts student
-		end
+students.each do |student|
+  puts student
+end
 ````
 
-We'll discuss exactly how this works later, but for now just understand what it does. This code takes every name from the array `students` and for each name it executes the block of code between `do` and `end`. Every execution of this block of code is called an iteration. On every iteration, the current name will be assigned to the value `student` that we specified between two vertical bars.
+This code takes every name from the array `students` and for each name it executes the block of code between `do` and `end`. Every execution of this block of code is called an iteration. On every iteration, the current name will be assigned to the value `student` that we specified between two vertical bars.
 
 So, on the very first iteration, it will take the first value from the array ("Dr. Hannibal Lecter") and assign it to the variable `student`. Then, it will execute the block of code (`puts student`) that will print it to the screen. Since "Dr. Hannibal Lecter" is not the last person in our array of charming students, Ruby will perform the second iteration, assigning the value of "Darth Vader" to the variable `student` and printing it again.
 
 Now our program is much shorter.
 
 ````ruby
-		# let's put all students into an array
-		students = [
-      "Dr. Hannibal Lecter",
-      "Darth Vader",
-      "Nurse Ratched",
-      "Michael Corleone",
-      "Alex DeLarge",
-      "The Wicked Witch of the West",
-      "Terminator",
-      "Freddy Krueger",
-      "The Joker",
-      "Joffrey Baratheon",
-      "Norman Bates"
-		]
-		# and then print them
-		puts "The students of Villains Academy"
-		puts "-------------"
-		students.each do |student|
-		  puts student
-		end
-		# finally, we print the total
-		puts "Overall, we have #{students.count} great students"
+# let's put all students into an array
+students = [
+	"Dr. Hannibal Lecter",
+	"Darth Vader",
+	"Nurse Ratched",
+	"Michael Corleone",
+	"Alex DeLarge",
+	"The Wicked Witch of the West",
+	"Terminator",
+	"Freddy Krueger",
+	"The Joker",
+	"Joffrey Baratheon",
+	"Norman Bates"
+]
+# and then print them
+puts "The students of Villains Academy"
+puts "-------------"
+students.each do |student|
+	puts student
+end
+# finally, we print the total
+puts "Overall, we have #{students.count} great students"
 ````
 
 By doing this we have solved two problems. Firstly, we separated the data (the array) from the operation on this array (line 19). This means that if we want to print this array again, it's very easy to do. It also means that if we want to add one more student, we won't have to do anything other than adding one more name to the array. On top of that, we could get rid of the `student_count` variable.
