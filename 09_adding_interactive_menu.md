@@ -53,7 +53,7 @@ You also know how to save the input into a variable:
 selection = gets.chomp
 ````
 
-Finally, we need to do some action based on what the user has asked us to do. A switch statement might be helpful in this case… (:pill:  [control flow](https://github.com/makersacademy/course/blob/master/pills/control_flow.md) )
+Finally, we need to do some action based on what the user has asked us to do. A switch statement might be helpful in this case… (:pill:  [Control Flow](https://github.com/makersacademy/pre_course/blob/master/pills/control_flow.md) )
 
 ````ruby
 #3. do what the user has asked

@@ -2,7 +2,7 @@
 
 [Back to README](README.md)
 
-Let's ask the user for the list of students instead of hardcoding them into the script. So we'll create an empty array of students and then ask the user for the first name and put it into the array. Then we'll ask for the second name and put it into the array. Then we'll ask for the third name and so on, until the user enters an empty name, at which point we'll just show the list of students. Sounds easy, right?  (:pill: [user interaction](https://github.com/makersacademy/pre_course/blob/master/pills/user_interaction.md) )
+What if instead of hardcoding the students into the script we asked for input from the user? To do so, we'll create an empty array of students and then ask the user for the first name and put it into the array. Then we'll ask for the second name and put it into the array. Then we'll ask for the third name and so on, until the user enters an empty name, at which point we'll just show the list of students. Sounds easy, right?  (:pill: [user interaction](https://github.com/makersacademy/pre_course/blob/master/pills/user_interaction.md) )
 
 The method we're about to write (**NO copy and pasting, as usual**) is going to be the most complex yet but don't worry, we'll break it down line by line.
 

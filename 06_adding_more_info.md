@@ -20,7 +20,7 @@ students = [
 ]
 ````
 
-Since we changed our data structure, let's also update the `print()` method. We should also rename the argument since we are not passing just names anymore. Note that we're storing the cohort month as a symbol (:pill: [Symbols](https://github.com/makersacademy/pre_course/blob/master/pills/symbols.md)) because we don't expect to treat it as a string (that is, combine it with another string, manipulate individual characters, etc). While you're at it, don't forget to update any other methods that could be using `students` as an argument.
+Since we changed our data structure, let's also update the `print()` method. We should also rename the argument since we are not passing just names anymore. Note that we're storing the cohort month as a symbol (:pill: [Symbols](https://github.com/makersacademy/pre_course/blob/master/pills/symbols.md)) because we don't expect to treat it as a string (that is, combine it with another string, manipulate individual characters, etc). While you're at it, don't forget to update any other methods that could be using `students` as an argument instead.
 
 ````ruby
 def print(students)
@@ -56,9 +56,9 @@ However, what's the problem with this code? Stop here for a second. Before you r
 puts "#{student[0]} (#{student[1]} cohort)"
 ````
 
-If you guess that it doesn't communicate its intent well enough, you're right. If you read this line in isolation, you can see that it's printing some information about a student but you don't know anything else. Is `student[0]` a name? A first name? A last name? An average grade? Even though you can answer these questions by reading the entire program, you should strive to write code that's easy to understand as it is. 
+If your guess that it doesn't communicate its intent well enough, you're right. If you read this line in isolation, you can see that it's printing some information about a student but you don't know anything else. Is `student[0]` a name? A first name? A last name? An average grade? Even though you can answer these questions by reading the entire program, you should strive to write code that's easy to understand as it is. 
 
-Let's fix this problem. Let's store the student data not in arrays but in hashes (:pill:  [hashes](https://github.com/makersacademy/course/blob/master/pills/hashes.md) )
+Let's fix this problem. Let's store the student data not in arrays but in hashes (:pill:  [Hashes](https://github.com/makersacademy/pre_course/blob/master/pills/hashes.md) )
 
 ````ruby
 students = [
@@ -88,6 +88,6 @@ end
 
 Now this method is much more readable. Even if you know nothing about the rest of the program, you can tell that for each student from an array of students it prints a name, followed by the cohort.
 
-Now it's a good time to commit the code.
+Run your code, is everything working as it should? Then it's a good time to commit the code.
 
 [Next challenge](07_asking_user_input.md)
