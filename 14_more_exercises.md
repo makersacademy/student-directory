@@ -14,7 +14,7 @@ Like in the previous exercises, off you find yourself struggling, discuss the ex
 
 5.	The filename we use to save and load data (menu items 3 and 4) is hardcoded. Make the script more flexible by asking for the filename if the user chooses these menu items.
 
-6.	We are opening and closing the files manually. Read the documentation of the `File` class to find out how to use a code block (`do...end`) to access a file, so that we didn't have to close it explicitly (it will be closed automatically when the block finishes). Refactor the code to use a code block.
+6.	We are opening and closing the files manually. Read the documentation of the `File` class to find out how to use a code block (`do...end`) to access a file, so that we don't have to close it explicitly (it will be closed automatically when the block finishes). Refactor the code to use a code block.
 
 7.	We are de-facto using CSV format to store data. However, Ruby includes [a library to work with the CSV files](http://www.ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html) that we could use instead of working directly with the files. Refactor the code to use this library.
 
