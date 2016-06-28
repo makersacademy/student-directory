@@ -6,7 +6,7 @@ If we have the data saved to the file, we can load it on startup, so that we did
 
 First, we need to open the file for reading. Then, we'll read the contents of the file, iterate over all lines, split every line at the comma and put a new hash into the array `@students`. Finally, we'll close the file.
 
-Before write the code, let's talk about different file access modes. When we opened the file for writing in the previous section, we did this:
+Before writing the code, let's talk about different file access modes. When we opened the file for writing in the previous section, we did this:
 
 ````ruby
 File.open("students.csv", "w")
