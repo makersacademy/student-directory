@@ -2,7 +2,7 @@
 
 [Back to README](README.md)
 
-Like in the previous exercises, off you find yourself struggling, discuss the exercise with other students, pair on it or just do an easy one before coming back to the harder exercise.
+Like in the previous exercises, if you find yourself struggling, discuss the exercise with other students, pair on it or just do an easy one before coming back to the harder exercise.
 
 1. After we added the code to load the students from file, we ended up with adding the students to `@students` in two places. The lines in `load_students()` and `input_students()` are almost the same. This violates the *DRY (Don't Repeat Yourself)* principle. How can you extract them into a method to fix this problem?
 
