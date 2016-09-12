@@ -25,7 +25,7 @@ def print_header
   puts "-------------"
 end
 
-def print(names)
+def print_students(names)
   names.each do |name|
     puts name
   end
@@ -36,7 +36,7 @@ def print_footer(names)
 end
 #nothing happens until we call the methods
 print_header
-print(students)
+print_students(students)
 print_footer(students)
 ````
 
