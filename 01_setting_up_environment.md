@@ -54,7 +54,7 @@ If you don't see the list of files and folders on the left, go to `File` → `Ad
 
 Right now, the only thing on our README is the name of the repo. Let's write a proper description for the project. This is a good idea because it will let other developers to quickly see what the codebase does. Every good project on Github has a good `README` file.
 
-Bellow is the README we wrote for the project. It was written using [Github-flavoured markdown](https://help.github.com/articles/about-writing-and-formatting-on-github/). Take a look the both the [markdown reference](http://daringfireball.net/projects/markdown/syntax) and the [Writing on Github](https://help.github.com/categories/writing-on-github/) reference so that you know what's possible.
+Below is the README we wrote for the project. It was written using [Github-flavoured markdown](https://help.github.com/articles/about-writing-and-formatting-on-github/). Take a look the both the [markdown reference](http://daringfireball.net/projects/markdown/syntax) and the [Writing on Github](https://help.github.com/categories/writing-on-github/) reference so that you know what's possible.
 
 ![readme](./images/readme.png)
 
