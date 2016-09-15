@@ -26,7 +26,7 @@ end
 
 However, if you probably have noticed that we've just ran into a new problem. The new method `show_students()` needs the variable `students`. However, this variable is local to the method `interactive_menu()` and is, therefore, not accessible here.
 
-One solution would be to pass it to the method as an argument. Another solution is to declare this variable outside all methods, so that it were accessible in all methods. If we do this, the variable will need to start with an "@" symbol. You probably know about this kind of variables already, but you could take quick detour now and do a little research on why and how we use them.
+One solution would be to pass it to the method as an argument. Another solution is to declare this variable outside all methods, so that it were accessible in all methods. If we do this, the variable will need to start with an "@" symbol. You probably know about this kind of variable already, but you could take quick detour now and do a little research on why and how we use them.
 
 For now, let's just say that we're doing it so that this variable were accessible in all methods. So, put this at the very beginning of the file:
 
