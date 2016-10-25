@@ -88,7 +88,7 @@ def show_students
 end
 ````
 
-Now it becomes more readable. Let's commit the code (double check that it works as before). However, the code is not perfect. There are several more opportunities for refactoring this code, as you'll see in the [exercises](13_extra_exercises.md) in the end of this tutorial.
+Now it becomes more readable. Let's commit the code (double check that it works as before). However, the code is not perfect. There are several more opportunities for refactoring this code, as you'll see in the [exercises](14_more_exercises.md) in the end of this tutorial.
 
 If you want to see what our code looks like at this point, follow this [link](https://raw.githubusercontent.com/anitacanita/student-directory/a19c166ea3778003fd707c9494717febd9cd97e5/directory.rb)
 
