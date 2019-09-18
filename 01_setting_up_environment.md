@@ -25,7 +25,7 @@ echo "# student-directory" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin git@github.com:makersacademy/student-directory.git
+git remote add origin git@github.com:REPLACE-WITH-YOUR-GITHUB-USERNAME/student-directory.git
 git push -u origin master
 ````
 
