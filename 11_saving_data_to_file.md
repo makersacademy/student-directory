@@ -92,7 +92,7 @@ However, what about the students.csv file we have in our project directory? It's
 
 ````
 git status
-# on branch master
+# on branch main
 # Changes to be committed:
 #    (use “git reset HEAD <file>…” to upstage)
 #         modified: directory.rb
