@@ -2,7 +2,7 @@
 
 [Back to README](README.md)
 
-What if instead of hardcoding the students into the script we asked for input from the user? To do so, we'll create an empty array of students and then ask the user for the first name and put it into the array. Then we'll ask for the second name and put it into the array. Then we'll ask for the third name and so on, until the user enters an empty name, at which point we'll just show the list of students. Sounds easy, right?  (:pill: [user interaction](https://github.com/makersacademy/pre_course/blob/master/pills/user_interaction.md) )
+What if instead of hardcoding the students into the script we asked for input from the user? To do so, we'll create an empty array of students and then ask the user for the first name and put it into the array. Then we'll ask for the second name and put it into the array. Then we'll ask for the third name and so on, until the user enters an empty name, at which point we'll just show the list of students. Sounds easy, right?  (:pill: [user interaction](https://github.com/makersacademy/pre_course/blob/main/pills/user_interaction.md) )
 
 The method we're about to write (**NO copy and pasting, as usual**) is going to be the most complex yet but don't worry, we'll break it down line by line.
 
@@ -38,7 +38,7 @@ print_footer(students)
 
 So, what's going on in the `input_students` method? Firstly, we create an empty array to store our future students (line 5). Then we ask for the name of the first student (line 7) and discard the return character. Then, we write a block of code (lines 9 to 15) that will be executed repeatedly as long as the name variable is not empty (the `empty?` method is part of the String class). If the name the user entered on line 7 is not empty (exclamation mark at the beginning means negation), the block will be executed at least once. If not, it'll be skipped altogether and Ruby will jump to line 17.
 
-Inside the block we know that the name is not empty (otherwise it wouldn't be executed at all). Then we add a new hash to the array (the `<<` is called a :pill:[shovel operator](https://github.com/makersacademy/pre_course/blob/master/pills/shovel_operator.md) and it's used to put things into an array) with the value of the name the user entered corresponding to the key `:name`. The value of the cohort is hardcoded (see the [list of exercises](08_exercises.md) for some ideas how to change it).
+Inside the block we know that the name is not empty (otherwise it wouldn't be executed at all). Then we add a new hash to the array (the `<<` is called a :pill:[shovel operator](https://github.com/makersacademy/pre_course/blob/main/pills/shovel_operator.md) and it's used to put things into an array) with the value of the name the user entered corresponding to the key `:name`. The value of the cohort is hardcoded (see the [list of exercises](08_exercises.md) for some ideas how to change it).
 
 Then we print a line to let the user know how many students have been entered so far and ask for another name. When the current iteration finishes, the next thing that will be evaluated is the condition on line 9. If the user entered an empty name, Ruby will jump to line 17. Otherwise, if we do have a name, it will execute the block again.
 

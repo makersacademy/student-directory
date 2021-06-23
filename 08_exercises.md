@@ -11,7 +11,7 @@ Some of them are easy and some are more challenging. If you find yourself strugg
 3. Modify your program to only print the students whose name is shorter than 12 characters.
 
 4. Rewrite the `each()` method that prints all students using `while` or `until` control flow
-methods (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/master/pills/loops.md)).
+methods (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/main/pills/loops.md)).
 
 5. Our code only works with the student name and cohort. Add more information: hobbies, country of birth, height, etc.
 
@@ -30,6 +30,6 @@ methods (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/master/
  Now, find all typos in that file and correct them. Use your experience, online
  documentation, etc. to find all mistakes. Run the script in the terminal from time to time to make sure it works as it should. Google the errors Ruby will give you, think about what they could mean, try different things but don't look the answer up :)
 
-12. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an `if` statement (:pill: [Control Flow](https://github.com/makersacademy/pre_course/blob/master/pills/control_flow.md)) to only print the list if there is at least one student in there?
+12. What happens if the user doesn't enter any students? It will try to print an empty list. How can you use an `if` statement (:pill: [Control Flow](https://github.com/makersacademy/pre_course/blob/main/pills/control_flow.md)) to only print the list if there is at least one student in there?
 
 [Next: Adding an interactive menu](09_adding_interactive_menu.md)

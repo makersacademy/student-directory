@@ -40,7 +40,7 @@ It's a good idea to commit code once a specific change has been introduced to th
 
 Now, what does the code do? Every puts statement prints a line of text in the terminal. More precisely, it prints it to the standard output or stdout.
 
-`puts` itself is a method provided by Ruby. The string after every `puts` is an argument. In Ruby, we can use parentheses around arguments but it's not mandatory (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/master/pills/methods.md)). So, another way of writing the same code would be
+`puts` itself is a method provided by Ruby. The string after every `puts` is an argument. In Ruby, we can use parentheses around arguments but it's not mandatory (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/main/pills/methods.md)). So, another way of writing the same code would be
 
 ````ruby
 puts("The students of Villains Academy")

@@ -6,7 +6,7 @@ Our code works but it's not perfect. There are two problems here. Firstly, it's 
 
 Secondly, the data (student names) is tightly coupled with what we do with this data (printing it). What if we wanted to change the way the students are printed, for example putting a number in front of the name? That'd mean updating every single line that prints a student name. What if we wanted to print the list twice: first in alphabetical order, then in reverse order? You can see how quickly it can all go wrong.
 
-Arrays (:pill: [Arrays](https://github.com/makersacademy/pre_course/blob/master/pills/arrays.md) ) will help us avoid both of these problems. Let's start by putting the students into an array. Remember, don't copy-paste, type everything in yourself, it's important. Make sure you understand every line here: _if you don't, talk to other students or the coaches_.
+Arrays (:pill: [Arrays](https://github.com/makersacademy/pre_course/blob/main/pills/arrays.md) ) will help us avoid both of these problems. Let's start by putting the students into an array. Remember, don't copy-paste, type everything in yourself, it's important. Make sure you understand every line here: _if you don't, talk to other students or the coaches_.
 
 ````ruby
 student_count = 11

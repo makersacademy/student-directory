@@ -25,7 +25,7 @@ end
 
 Let's convert them into real Ruby code. Instead of starting with the first action, though, let's start with the last one: repeating the code from line 1, so that the user could make multiple selections.
 
-If we need to repeat a certain action a number of times, we need a loop. In this program, we need to keep asking for the user input indefinitely (until the program terminates), so a simple loop is a good choice (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/master/pills/loops.md) ) ).
+If we need to repeat a certain action a number of times, we need a loop. In this program, we need to keep asking for the user input indefinitely (until the program terminates), so a simple loop is a good choice (:pill: [Loops](https://github.com/makersacademy/pre_course/blob/main/pills/loops.md) ) ).
 
 ````ruby
 def interactive_menu
@@ -53,7 +53,7 @@ You also know how to save the input into a variable:
 selection = gets.chomp
 ````
 
-Finally, we need to do some action based on what the user has asked us to do. A switch statement might be helpful in this case… (:pill:  [Control Flow](https://github.com/makersacademy/pre_course/blob/master/pills/control_flow.md) )
+Finally, we need to do some action based on what the user has asked us to do. A switch statement might be helpful in this case… (:pill:  [Control Flow](https://github.com/makersacademy/pre_course/blob/main/pills/control_flow.md) )
 
 ````ruby
 #3. do what the user has asked

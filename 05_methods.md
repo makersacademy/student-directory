@@ -2,7 +2,7 @@
 
 [Back to README](README.md)
 
-It's time to further improve our code, now we want to make our program easier to read. We can achieve that by creating a few methods (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/master/pills/methods.md))
+It's time to further improve our code, now we want to make our program easier to read. We can achieve that by creating a few methods (:pill: [Methods](https://github.com/makersacademy/pre_course/blob/main/pills/methods.md))
 
 ````ruby
 #let's put all students into an array

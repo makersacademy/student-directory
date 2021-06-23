@@ -41,7 +41,7 @@ print student_count
 puts " great students"
 ````
 
-Now line 19 clearly communicates what it does. Let's reduce the line count by two by using interpolation (:pill: [String interpolation](https://github.com/makersacademy/pre_course/blob/master/pills/string_interpolation.md)). Replace the last three lines with this.
+Now line 19 clearly communicates what it does. Let's reduce the line count by two by using interpolation (:pill: [String interpolation](https://github.com/makersacademy/pre_course/blob/main/pills/string_interpolation.md)). Replace the last three lines with this.
 
 ````ruby
 # finally, we print the total number of students
